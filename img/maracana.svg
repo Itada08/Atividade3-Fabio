@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" width="400" height="200">
+  <rect width="400" height="200" fill="#87ceeb"/>
+  <ellipse cx="200" cy="150" rx="190" ry="45" fill="#cfcfcf" stroke="#999" stroke-width="2"/>
+  <ellipse cx="200" cy="150" rx="150" ry="30" fill="#4caf50"/>
+  <ellipse cx="200" cy="150" rx="90" ry="16" fill="#3d8b40"/>
+  <path d="M15 150 A185 60 0 0 1 385 150" fill="none" stroke="#888" stroke-width="10"/>
+  <text x="200" y="30" font-size="18" font-family="Arial" fill="#1a1a1a" text-anchor="middle">Estádio</text>
+</svg>

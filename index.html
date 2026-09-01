@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clube de Regatas do Flamengo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="container header-content">
+      <img src="img/escudo.svg" alt="Escudo do Flamengo" class="logo">
+      <h1>Clube de Regatas do Flamengo</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#historia">História</a></li>
+        <li><a href="#titulos">Títulos</a></li>
+        <li><a href="#elenco">Elenco</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h2>Mengão, Nação Rubro-Negra!</h2>
+      <p>O clube mais popular do Brasil, fundado em 1895.</p>
+    </div>
+  </section>
+
+  <main class="container">
+
+    <section id="historia">
+      <h2>História</h2>
+      <img src="img/maracana.svg" alt="Ilustração do Maracanã" class="section-img">
+      <p>
+        O Flamengo foi fundado em 17 de novembro de 1895, no bairro do Flamengo, no Rio de Janeiro.
+        Inicialmente um clube de regatas, o futebol só passou a fazer parte de suas atividades em 1911,
+        rapidamente se tornando a modalidade mais popular do clube.
+      </p>
+      <p>
+        Ao longo de sua história, o clube construiu uma das maiores torcidas do mundo, sendo reconhecido
+        como o time com maior número de torcedores no Brasil.
+      </p>
+    </section>
+
+    <section id="titulos">
+      <h2>Principais Títulos</h2>
+      <ul id="lista-titulos" class="titulos-lista">
+        <li>Campeão Brasileiro (8 vezes)</li>
+        <li>Copa Libertadores da América (3 vezes)</li>
+        <li>Campeão Carioca (mais de 30 vezes)</li>
+      </ul>
+    </section>
+
+    <section id="elenco">
+      <h2>Elenco</h2>
+      <img src="img/bola.svg" alt="Ilustração de uma bola de futebol" class="section-img section-img-small">
+      <p>Confira abaixo alguns dos ídolos que vestiram a camisa rubro-negra ao longo da história.</p>
+      <div class="cards" id="cards-jogadores">
+        <!-- Preenchido dinamicamente via JavaScript -->
+      </div>
+    </section>
+
+    <section id="contato">
+      <h2>Contato</h2>
+      <p>Ninho do Urubu — Centro de Treinamento George Helal</p>
+      <p>Rio de Janeiro, RJ</p>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; <span id="ano"></span> Página criada para fins de estudo (atividade de Git/GitHub).</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
